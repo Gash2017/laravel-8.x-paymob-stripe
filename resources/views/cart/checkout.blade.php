@@ -59,7 +59,7 @@
 <script src="https://js.stripe.com/v3/"></script>
 <script>
     window.onload = function() {
-            var stripe = Stripe('pk_test_51JCNPLLW05iam6qHQFlYr0KmmOkUzgbS7Q7mPUbu43Pg9RdTkuzbHoBtp3YyU1Zu0hjU7rPePHllSldIwtLq2Pg800Qo0xQE8G');
+            var stripe = Stripe('pk_test');
             var elements = stripe.elements();
             var style = {
                 base: {
